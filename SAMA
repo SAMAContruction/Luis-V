@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sama Constructions LLC</title>
+    <style>
+        /* CSS - Estilos básicos */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #2E8B57; /* Verde bosque */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navegación */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700; /* Amarillo dorado */
+        }
+
+        /* Sección general */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        section ul {
+            list-style-type: square;
+        }
+
+        /* Estilo de la sección de servicios */
+        #servicios ul {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            section {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Bienvenidos a Sama Constructions LLC</h1>
+        <p>Servicios de mejoras para el hogar y paisajismo en El Paso, Texas</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>En Sama Constructions LLC, ofrecemos soluciones integrales para todas tus necesidades de mejoras para el hogar. Desde paisajismo hasta renovaciones interiores, nuestro equipo se dedica a brindar calidad y excelencia.</p>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Paisajismo y jardinería</li>
+            <li>Renovación de cocinas y baños</li>
+            <li>Instalación de cercas y patios</li>
+            <li>Diseño de espacios exteriores</li>
+        </ul>
+    </section>
+
+    <!-- Sección sobre nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa local de El Paso, Texas, comprometida con mejorar y transformar los hogares de nuestra comunidad. Con años de experiencia en el sector de la construcción y paisajismo, nuestro objetivo es superar las expectativas de cada cliente.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información o solicitar un presupuesto, contáctanos:</p>
+        <p><strong>Teléfono:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> info@samaconstructions.com</p>
+        <button id="contactButton">Solicitar Presupuesto</button>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Sama Constructions LLC - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript para interactividad -->
+    <script>
+        // Función de alerta simple cuando se presiona el botón de contacto
+        document.getElementById('contactButton').addEventListener('click', function() {
+            alert('Gracias por su interés. Nos pondremos en contacto pronto.');
+        });
+    </script>
+</body>
+</html>
